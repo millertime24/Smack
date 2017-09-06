@@ -15,6 +15,7 @@
 		CE69275F1F5F8A1400D0A7AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE69275E1F5F8A1400D0A7AE /* Assets.xcassets */; };
 		CE6927621F5F8A1400D0A7AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6927601F5F8A1400D0A7AE /* LaunchScreen.storyboard */; };
 		CEE131C81F607ECD00D9F560 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE794FCD1F5F90C800EB829E /* SWRevealViewController.m */; };
+		CEE131CA1F6083CB00D9F560 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE131C91F6083CB00D9F560 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		CE794FCC1F5F90C700EB829E /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		CE794FCD1F5F90C800EB829E /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		CE794FCE1F5F90C800EB829E /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		CEE131C91F6083CB00D9F560 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		CE36AA661F6061410007B423 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CEE131C91F6083CB00D9F560 /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			files = (
 				CE36AA691F6061770007B423 /* ChatVC.swift in Sources */,
 				CE36AA6B1F60618A0007B423 /* ChannelVC.swift in Sources */,
+				CEE131CA1F6083CB00D9F560 /* GradientView.swift in Sources */,
 				CE6927581F5F8A1400D0A7AE /* AppDelegate.swift in Sources */,
 				CEE131C81F607ECD00D9F560 /* SWRevealViewController.m in Sources */,
 			);
