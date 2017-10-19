@@ -18,6 +18,7 @@
 		CE69275F1F5F8A1400D0A7AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE69275E1F5F8A1400D0A7AE /* Assets.xcassets */; };
 		CE6927621F5F8A1400D0A7AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6927601F5F8A1400D0A7AE /* LaunchScreen.storyboard */; };
 		CEC216CD1F97D8D900EFC454 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC216CC1F97D8D900EFC454 /* RoundedButton.swift */; };
+		CEC216CF1F980E9C00EFC454 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC216CE1F980E9C00EFC454 /* UserDataService.swift */; };
 		CEC7DB291F67403E00375F50 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC7DB281F67403E00375F50 /* AuthService.swift */; };
 		CEE131C81F607ECD00D9F560 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE794FCD1F5F90C800EB829E /* SWRevealViewController.m */; };
 		CEE131CA1F6083CB00D9F560 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE131C91F6083CB00D9F560 /* GradientView.swift */; };
@@ -42,6 +43,7 @@
 		CE794FCD1F5F90C800EB829E /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		CE794FCE1F5F90C800EB829E /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		CEC216CC1F97D8D900EFC454 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		CEC216CE1F980E9C00EFC454 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		CEC7DB281F67403E00375F50 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		CEE131C91F6083CB00D9F560 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				CEC7DB281F67403E00375F50 /* AuthService.swift */,
+				CEC216CE1F980E9C00EFC454 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				CE36AA691F6061770007B423 /* ChatVC.swift in Sources */,
 				CEC216CD1F97D8D900EFC454 /* RoundedButton.swift in Sources */,
 				CE36AA6B1F60618A0007B423 /* ChannelVC.swift in Sources */,
+				CEC216CF1F980E9C00EFC454 /* UserDataService.swift in Sources */,
 				CE40D5D01F63487200245D4F /* CreateAccountVC.swift in Sources */,
 				CEC7DB291F67403E00375F50 /* AuthService.swift in Sources */,
 				CE40D5CE1F632C0900245D4F /* LoginVC.swift in Sources */,
