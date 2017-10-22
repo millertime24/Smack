@@ -239,7 +239,14 @@
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginPressed:" destination="ilf-ZB-D9q" eventType="touchUpInside" id="rYA-vu-3Fb"/>
+                                </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Sax-Ce-npE">
+                                <rect key="frame" x="169" y="215" width="37" height="37"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -249,7 +256,9 @@
                             <constraint firstItem="BVU-P0-poE" firstAttribute="top" secondItem="rJY-TO-0ny" secondAttribute="bottom" constant="40" id="OtT-Av-ypP"/>
                             <constraint firstItem="rJY-TO-0ny" firstAttribute="top" secondItem="1jI-sP-0s9" secondAttribute="top" constant="60" id="Q6k-ZB-uBE"/>
                             <constraint firstItem="1HM-z8-yDh" firstAttribute="top" secondItem="hIH-xO-LpO" secondAttribute="bottom" id="Zgx-93-Vol"/>
+                            <constraint firstItem="Sax-Ce-npE" firstAttribute="centerY" secondItem="pet-Ls-xvC" secondAttribute="centerY" constant="-100" id="beM-fR-a1P"/>
                             <constraint firstItem="1HM-z8-yDh" firstAttribute="centerX" secondItem="pet-Ls-xvC" secondAttribute="centerX" id="cyx-0H-uhM"/>
+                            <constraint firstItem="Sax-Ce-npE" firstAttribute="centerX" secondItem="pet-Ls-xvC" secondAttribute="centerX" id="dn6-Rz-hk6"/>
                             <constraint firstItem="BVU-P0-poE" firstAttribute="centerX" secondItem="pet-Ls-xvC" secondAttribute="centerX" id="jWl-EA-DTa"/>
                             <constraint firstItem="hIH-xO-LpO" firstAttribute="top" secondItem="BVU-P0-poE" secondAttribute="bottom" constant="40" id="lAO-oY-cfk"/>
                             <constraint firstItem="rJY-TO-0ny" firstAttribute="centerX" secondItem="pet-Ls-xvC" secondAttribute="centerX" id="uGS-kN-yoo"/>
@@ -257,6 +266,9 @@
                         <viewLayoutGuide key="safeArea" id="1jI-sP-0s9"/>
                     </view>
                     <connections>
+                        <outlet property="passwordTxt" destination="0HT-hY-Y0k" id="ayv-SO-jnv"/>
+                        <outlet property="spinner" destination="Sax-Ce-npE" id="OC2-OY-E7m"/>
+                        <outlet property="usernameTxt" destination="GU1-BL-hbk" id="1Ad-BZ-zJ7"/>
                         <segue destination="REW-LG-P78" kind="show" identifier="toCreateAccount" id="H3Z-ji-Yv2"/>
                     </connections>
                 </viewController>
