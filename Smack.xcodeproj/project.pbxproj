@@ -24,6 +24,7 @@
 		CEBB10A01F9A8EF00004B095 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBB109E1F9A8EF00004B095 /* ProfileVC.xib */; };
 		CEC18E6E1F9E52F8009EE7E9 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC18E6D1F9E52F8009EE7E9 /* MessageService.swift */; };
 		CEC18E701F9E5472009EE7E9 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC18E6F1F9E5472009EE7E9 /* Channel.swift */; };
+		CEC18E721F9E62DD009EE7E9 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC18E711F9E62DD009EE7E9 /* ChannelCell.swift */; };
 		CEC216CD1F97D8D900EFC454 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC216CC1F97D8D900EFC454 /* RoundedButton.swift */; };
 		CEC216CF1F980E9C00EFC454 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC216CE1F980E9C00EFC454 /* UserDataService.swift */; };
 		CEC7DB291F67403E00375F50 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC7DB281F67403E00375F50 /* AuthService.swift */; };
@@ -56,6 +57,7 @@
 		CEBB109E1F9A8EF00004B095 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		CEC18E6D1F9E52F8009EE7E9 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		CEC18E6F1F9E5472009EE7E9 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		CEC18E711F9E62DD009EE7E9 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		CEC216CC1F97D8D900EFC454 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		CEC216CE1F980E9C00EFC454 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		CEC7DB281F67403E00375F50 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				CEC216CC1F97D8D900EFC454 /* RoundedButton.swift */,
 				CE38ADC81F99650800481D83 /* AvatarCell.swift */,
 				CE6C6E061F9A688C009F7AF4 /* CircleImage.swift */,
+				CEC18E711F9E62DD009EE7E9 /* ChannelCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEBB109F1F9A8EF00004B095 /* ProfileVC.swift in Sources */,
+				CEC18E721F9E62DD009EE7E9 /* ChannelCell.swift in Sources */,
 				CE36AA691F6061770007B423 /* ChatVC.swift in Sources */,
 				CE38ADC71F9961CA00481D83 /* AvatarPickerVC.swift in Sources */,
 				CEC216CD1F97D8D900EFC454 /* RoundedButton.swift in Sources */,

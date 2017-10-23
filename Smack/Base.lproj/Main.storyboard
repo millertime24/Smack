@@ -69,7 +69,7 @@
                                 <rect key="frame" x="0.0" y="125" width="375" height="427"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="u5e-z1-ZN9">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="channelCell" id="u5e-z1-ZN9" customClass="ChannelCell" customModule="Smack" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="u5e-z1-ZN9" id="HvU-Le-X4X">
@@ -90,6 +90,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="channelName" destination="ZOj-MQ-iSu" id="jIQ-h4-SeY"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -128,6 +131,7 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="LPp-Rz-ihA" id="uSr-lV-puD"/>
+                        <outlet property="tableView" destination="DPj-x1-g5E" id="8Sd-Xw-emw"/>
                         <outlet property="userImg" destination="MzM-yi-Xnh" id="Xfb-na-nTK"/>
                         <segue destination="ilf-ZB-D9q" kind="show" identifier="toLogin" id="ajF-eX-iDN"/>
                     </connections>
